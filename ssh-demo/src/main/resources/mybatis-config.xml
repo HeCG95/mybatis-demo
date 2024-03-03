@@ -9,4 +9,8 @@
 <!--        <setting name="logImpl" value="LOG4J"/>-->
     </settings>
 
+    <mappers>
+        <mapper resource="mapper/UserMapper.xml"/>
+    </mappers>
+
 </configuration>
