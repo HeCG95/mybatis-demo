@@ -11,6 +11,7 @@
     <modules>
         <module>ssh-demo</module>
         <module>boot-demo</module>
+        <module>version-demo</module>
     </modules>
 
     <properties>
