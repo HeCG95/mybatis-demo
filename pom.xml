@@ -10,7 +10,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>ssh-demo</module>
-        <module>mybatis-generator-core</module>
     </modules>
 
     <properties>
