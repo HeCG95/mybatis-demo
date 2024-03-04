@@ -3,7 +3,9 @@
 
 <mapper namespace="fun.iamu.version.mapper.TestMapper">
 
-    <select id="getUserById" parameterType="java.lang.String"
+    <!--ClassCastException: java.lang.Integer cannot be cast to java.lang.String-->
+    <!--<select id="getUserById" parameterType="java.lang.String"-->
+    <select id="getUserById" parameterType="java.lang.Integer"
             resultType="fun.iamu.version.entity.User">
         SELECT id,username,password,account FROM t_user WHERE id = #{id}
     </select>
